@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>  
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css_hw.css">
+<title>CSS_HelloWord</title>
+</head>
+<style>
+    body {
+    font-family: tahoma;
+}
+h1 {
+    color: #E86E80;
+    font-family: tahoma;
+    /* this is  a comment*/
+}
+#asies p {
+    background-color: #008f95;
+    color: white;
+}
+#hh{
+    background-color: #E24E43;
+}
+#hh li {
+    color: white;
+}
+section {
+    border: 10px solid #E9B000;
+}
+h2 {
+    background-color: #E86E80;
+    color: white;
+    font-family: tahoma;
+}
+section ol{
+    background-color: white;
+}
+section ol li {
+    color: #E24E43;
+}
+section p {
+    color: #008f95;
+    background-color: white;
+}
+#gg {
+    border: 5px solid #E24E43;
+}
+</style>
+<body>
+    <section id="asies">
+        <h1>Title</h1>
+        <p>When you use two selectors separated by a space on a rule, you scope the rule to 
+        the elements that correspond to the selector on the right that are INSIDE the elements that correspond
+        to the selector on the left. Let's say we have the following HTLM:
+        </p>
+        <ol id="hh">
+            <li>Section 1</li>
+            <li>Section 2</li>
+        </ol>
+    </section>
+    <br>
+    <section id="uno">
+        <h2>Section 1</h2>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <ol id="gg">
+                <li>sub item 1</li>
+                <li>sub item 2</li>
+                <li>sub item 3</li>
+                <li>sub item 4</li>
+            </ol>
+            <li>Item 3</li>
+        </ol>
+        <p>If we applied the following CSS rule then the images INSIDE the paragraph would be set to a width of 100px, but that
+            rule would not apply to the  images outside the paragraph. Below is a diagram of the given HTML with the two imgs
+            that will styled by the above rule are indicated by the red arrows.
+        </p>
+    </section>
+    <br>
+    <section id="dos">
+        <h2>Section 2</h2>
+        <ol>
+            <li> Item 1</li>
+            <ol id="gg">
+                <li>sub item 1</li>
+                <li>sub item 2</li>
+            </ol>
+            <li>item 2</li>
+        </ol>
+        <p>As your Web pages get more complex, contextual selectros become more important, because it won't scale to apply
+            classes and IDs to each individual item. Contextual selection becomes especially useful when you structure your HTML 
+            with section tags like header, section, article and footer. Pay attention to the styles of the paragraphs and lists
+            in the following example:
+        </p>
+    </section>
+    <br>
+    <section>
+        <h1>Footer</h1>
+        <ol id="hh">
+            <li>link 1</li>
+            <li>link 2</li>
+            <li>link 3</li>
+            <li>link 4</li>
+        </ol>
+    </section>
+</body>
+</html>
