@@ -1,0 +1,31 @@
+body {
+    font-size: 24pt;
+    font-family: helvetica;
+}
+div {
+    margin-bottom: 10px;
+}
+#default {
+    background-color: rgb(235, 108, 108);
+}
+#floatRightNoWidth {
+    background-color: lavenderblush;
+    float: right;
+}
+#floatRightTooWide {
+    background-color: rgb(16, 110, 79);
+    float: right;
+}
+#noFloatWidthSet {
+    background-color: lightslategrey;
+    width: 40%;
+}
+#noFloatClearRight {
+    background-color: limegreen;
+    clear: right;
+}
+#floatRightWidthSet {
+    background-color: mediumaquamarine;
+    width: 30%;
+    float: right;
+}
