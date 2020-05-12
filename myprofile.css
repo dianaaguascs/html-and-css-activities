@@ -1,0 +1,117 @@
+body{
+    background-color: khaki;
+}
+/*aligment property */
+h1 {
+    text-align: center;
+    color: rgb(241, 76, 167);
+}
+h3 {
+    color: rgb(90, 90, 241);
+}
+/*line-height*/
+#education {
+    border: 5px red solid;
+    margin-left: 5px;
+    line-height: 1.5;
+}
+h2 {
+    background-color: chocolate;
+}
+#bio {
+    width: 50%;
+    text-align: center;
+    margin: 50px;
+}
+#education p {
+    margin: 5px;
+    border: 1px blue solid;
+    border-left: 1px blue solid;
+}
+#five, #ten, #fifty{
+    background-color: rgb(93, 212, 93);
+} 
+#five {
+    padding: 5px;
+    border: 5px rgb(207, 61, 105) solid;
+    margin: 5px;
+}
+#ten {
+    padding: 10px;
+    border: 10px rgb(207, 61, 105) solid;
+    margin: 10px;
+}
+#fifty {
+    padding: 50px;
+    border: 50px rgb(207, 61, 105) solid;
+    margin: 50px;
+} 
+#center {
+    background-color: pink;
+    width: 500px;
+    text-align: center;
+}
+#right {
+    background-color: rosybrown;
+    text-align: right;
+}   
+#text {
+    background-color: sandybrown;
+    width: 500px;
+    padding: 10px;
+    text-align: justify;
+}
+#onedottwo {
+    background-color: springgreen;
+    line-height: 1.2;
+}
+#baseline {
+    background-color: teal;
+    height: 200px;
+    line-height: 4;
+}
+#width50 {
+    background-color: tomato;
+    width: 50%;
+}
+#width80max {
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+}
+#width30min {
+    background-color: turquoise;
+    width: 30%;
+    min-width: 200px;
+}
+.heightSet {
+    background-color: wheat;
+    height: 25%
+}
+#containingBlock {
+    height: 500px;
+}
+#w50 {
+    background-color: rosybrown;
+    width: 50%;
+    margin: 0 auto;
+}
+#orange {
+    background-color: rgb(189, 128, 84);
+    width: 70%;
+}
+a {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+section {
+    background-color: salmon;
+    width: 70%;
+    margin: 0 auto;
+}
+#div {
+    background-color: plum;
+    width: 50%;
+    margin: 0 auto;
+}
