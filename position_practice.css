@@ -1,0 +1,35 @@
+#one, #one1 {
+    background-color: red;
+    width: 300px;
+    position: relative;
+    left: 150px;
+}
+section {
+    background-color: orange;
+    height: 100px;
+}
+#two {
+    position: relative;
+    top: 20px;
+}
+footer {
+    background-color: yellow;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+} 
+#three {
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+#footer {
+    background-color: yellow;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: -50px;
+}
