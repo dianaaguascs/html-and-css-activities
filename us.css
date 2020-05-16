@@ -1,0 +1,51 @@
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    background-color: rgb(231, 156, 178);
+    font-family: "century gothic";
+}
+#menu {
+    margin: 30px auto;
+    position: relative;
+    left: 0;
+    width: 40%;   
+  } 
+    #menu ul {
+        width: 10%;
+        background-color: rgb(243, 203, 234);
+        margin-top: 0px;
+        text-align: center;
+        padding: 0px;
+        display: inline;
+      }
+      #menu a {
+        color: rgb(246, 136, 221);
+      }
+      #menu li {
+        padding: 15px 30px;
+        display: inline;
+      }
+      #menu li:hover {
+        background-color: rgb(226, 159, 243);
+        border-left: 5px rgb(187, 57, 220) solid;
+      }
+      #menu li a {
+        font-size: 1.2em;
+      }
+      #menu .currentPage {
+        background-color: #FEDCD2;
+        border-left: 5px rgb(255, 152, 255) solid;
+      }
+
+#onlyAlberto {
+    background-color: rgb(219, 181, 250);
+    padding: 20px;
+    margin: 0 auto;
+    width: 30%;
+    border-left: lightcoral solid 5px;
+}
+#onlyAlberto img {
+    border-radius: 500px;
+    height: 320px;
+}
